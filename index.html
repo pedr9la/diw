@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>FASHION STORE</title>
+</head>
+<body>
+    <div class="nome text-center">
+        <h1>FASHION STORE</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">FASHION STORE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feminino">Feminino</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#masculino">Masculino</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Categorias</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#feminino">Feminino</a></li>
+                <li><a class="dropdown-item" href="#masculino">Masculino</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#acessorios">Acessórios</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="roupa 1.jpg.jpg" class="d-block w-100" alt="Roupa em destaque">
+          </div>
+          <div class="carousel-item">
+            <img src="img/roupa2.jpg" class="d-block w-100" alt="Roupa em destaque">
+          </div>
+          <div class="carousel-item">
+            <img src="img/roupa3.jpg" class="d-block w-100" alt="Roupa em destaque">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    <div class="container" id="feminino">
+        <h2>Moda Feminina</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="fem1.jpg" class="img-fluid" alt="Vestido">
+            </div>
+            <div class="col-md-3">
+                <img src="fem2.jpg" class="img-fluid" alt="Blusa">
+            </div>
+            <div class="col-md-3">
+                <img src="fem3.jpg" class="img-fluid" alt="Calça">
+            </div>
+            <div class="col-md-3">
+                <img src="fem4.jpg" class="img-fluid" alt="Jaqueta">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container" id="masculino">
+        <h2>Moda Masculina</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="roupa 1.jpg.jpg"img-fluid" alt="Camiseta">
+            </div>
+            <div class="col-md-3">
+                <img src="bermuda.jpg" class="img-fluid" alt="Bermuda">
+            </div>
+            <div class="col-md-3">
+                <img src="jeans.jpg" class="img-fluid" alt="Calça Jeans">
+            </div>
+            <div class="col-md-3">
+                <img src="blazer (2).jpg" alt="Blazer">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container" id="acessorios">
+        <h2>Acessórios</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="bolsa.jpeg" class="img-fluid" alt="Bolsa">
+            </div>
+            <div class="col-md-3">
+                <img src="rolex.jpg" class="img-fluid" alt="Relógio">
+            </div>
+            <div class="col-md-3">
+                <img src="oculos.jpg" class="img-fluid" alt="Óculos">
+            </div>
+            <div class="col-md-3">
+                <img src="carteira.jpg"img-fluid" alt="Carteira">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
